@@ -1,3 +1,7 @@
+drop table if exist product_info;
+drop table if exist product_purchase;
+drop table if exist product_specification;
+
 create table product_info(
 id integer primary key,
 prod_id varchar(10) not null, 
